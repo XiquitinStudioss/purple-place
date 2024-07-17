@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Purble place en 3d</title>
+    <title>Unity WebGL Player | Purble place en 3d</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -15,6 +15,12 @@
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Purble place en 3d</div>
       </div>
     </div>
     <script>
@@ -50,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/intento build.loader.js";
+      var loaderUrl = buildUrl + "/2.0.loader.js";
       var config = {
-        dataUrl: buildUrl + "/intento build.data.gz",
-        frameworkUrl: buildUrl + "/intento build.framework.js.gz",
-        codeUrl: buildUrl + "/intento build.wasm.gz",
+        dataUrl: buildUrl + "/2.0.data.gz",
+        frameworkUrl: buildUrl + "/2.0.framework.js.gz",
+        codeUrl: buildUrl + "/2.0.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Purble place en 3d",
